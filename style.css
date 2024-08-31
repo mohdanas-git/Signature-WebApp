@@ -1,0 +1,36 @@
+.main{
+            width: 600px;
+        }
+        .canvas{
+            border: 2px solid black;
+            height: 300px;
+            width: 550px;
+        }
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .block , input , select{
+            width: 50%;
+        }
+        .top>.block{
+            margin: 10px;
+        }
+        .bottom{
+            width: 550px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .bottom>button{
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 2px;
+            margin-right: 2px;
+
+        }
+
+        .block>p{
+            margin: 10px auto;
+            width: 80%;
+        }
